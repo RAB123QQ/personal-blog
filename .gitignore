@@ -36,6 +36,7 @@ node_modules/
 .DS_Store
 old_blog
 ignore.*
+本地说明.md
 bunfig.toml
 /src/content/blog/test.*
 /test/
