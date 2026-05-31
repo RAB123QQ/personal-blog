@@ -49,7 +49,7 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: '博客', link: '/blog' },
-      { title: 'Docs', link: '/docs' },
+      //{ title: 'Docs', link: '/docs' },
       { title: '项目', link: '/projects' },
       { title: 'About', link: '/about' }
     ]
