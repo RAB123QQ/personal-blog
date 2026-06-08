@@ -5,6 +5,7 @@ import { Button, Collapse } from 'astro-pure/user'
 import PageLayout from '@/layouts/CommonPage.astro'
 import ProjectSection from '@/components/projects/ProjectSection.astro'
 import KeyIcon from '@/assets/icons/key.svg'
+import { undefined } from 'astro:schema'
 
 const headings = [
   { depth: 2, slug: 'programs', text: 'Programs' },
@@ -62,6 +63,11 @@ const headings = [
   <ProjectSection
     class='my-2'
     projects={[
+      {
+      name: 'PnP检测',
+      description: '求解 3D 到 2D 点对运动的方法',
+      author: ''
+      }
      
     ]}
   />
@@ -73,9 +79,7 @@ const headings = [
         name: 'Embodied-AI-Guide',
         description: 'Embodied AI(具身智能)入门的路径以及高质量信息的总结',
         author: 'Embodied-AI-Guide-Contributors, Lumina-Embodied-AI-Community',
-        links: [{ type: 'site', href: 'https://lumina-embodied.ai/blog/eai-guide#cite' }
-        
-        ]
+        links: [{ type: 'site', href: 'https://lumina-embodied.ai/blog/eai-guide#cite' }]
       },
       {
         name: '你缺失的那门计算机课',

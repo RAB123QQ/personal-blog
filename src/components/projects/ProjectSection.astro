@@ -11,7 +11,7 @@ interface Project {
   name: string
   description: string
   author: string
-  links: {
+  links?: {
     type: string
     href: string
   }[]
@@ -71,7 +71,7 @@ const projectIconSet: Record<string, IconsType> = {
             >
               <a
                 class='line-clamp-1 font-medium text-foreground no-underline transition-colors'
-                href={project.links[0].href}
+                href={project.links?.[0]?.href}
                 target='_blank'
               >
                 {project.name}
@@ -83,7 +83,7 @@ const projectIconSet: Record<string, IconsType> = {
                 {project.author}
               </div>
               <div class='flex flex-row items-center gap-x-2 sm:gap-x-3'>
-                {project.links.map((link) => {
+                {project.links?.map((link) => {
                   const icon = projectIconSet[link.type]
                   return (
                     <a
