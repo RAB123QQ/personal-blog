@@ -58,7 +58,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 这三个命令可以在运行docker的时候不用在前面加sudo
 例如 
-==sudo docker ps==  变成 ==docker ps ==
+sudo docker ps  变成 docker ps 
 
 ```
 
