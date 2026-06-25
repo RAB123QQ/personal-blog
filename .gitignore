@@ -40,3 +40,6 @@ ignore.*
 bunfig.toml
 /src/content/blog/test.*
 /test/
+.learnings/LEARNINGS.md
+.learnings/ERRORS.md
+.learnings/FEATURE_REQUESTS.md
