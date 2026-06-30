@@ -8,9 +8,7 @@
   }
 
   function applyStoredTheme() {
-    const storedTheme = localStorage.getItem('theme')
-    const theme = resolveTheme(storedTheme)
-    if (storedTheme !== theme) localStorage.setItem('theme', theme)
+    const theme = resolveTheme(localStorage.getItem('theme'))
     document.documentElement.classList.toggle('dark', theme === 'dark')
     document
       .querySelector('meta[name="theme-color"]')
