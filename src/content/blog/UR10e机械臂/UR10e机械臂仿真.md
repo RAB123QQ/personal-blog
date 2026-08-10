@@ -4,7 +4,7 @@ publishDate: 2026-06-09 20:22:00
 description: 'UR10e机械臂的仿真环境搭建教程'
 tags:
   - UR机械臂
-heroImage: { src: './ur_arm.png', color: '#3d78bd' }
+heroImage: { src: './ur_arm.png', color: '#1c165e' }
 language: '中文'
 ---
 **环境要求**
@@ -23,7 +23,7 @@ moveit
 可以安装二进制包，也可以从源代码构建，如果不需要改源码，一般推荐从二进制包安装
 
 ```
- sudo apt-get install ros-${ROS_DISTRO}-ur
+sudo apt-get install ros-${ROS_DISTRO}-ur
 ```
 安装moveit
 ```
