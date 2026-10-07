@@ -38,6 +38,12 @@ export default defineConfig({
     defaultStrategy: 'viewport'
   },
 
+  // [Redirects] 旧中文 slug 跳转到新英文 slug
+  redirects: {
+    '/blog/UR10e机械臂/UR10e机械臂仿真': '/blog/ur10e-simulation',
+    '/blog/电赛回忆录/电赛回忆录': '/blog/diansai-memoir'
+  },
+
   // [Adapter]
   // https://docs.astro.build/en/guides/deploy/
   adapter: vercel({ imageService: true }),
