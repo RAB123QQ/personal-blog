@@ -4,7 +4,7 @@ publishDate: 2026-06-09 20:22:00
 description: 'UR10e机械臂的仿真环境搭建教程'
 tags:
   - UR机械臂
-heroImage: { src: '../UR10e机械臂/ur_arm.png', color: '#1c165e' }
+heroImage: { src: './ur_arm.png', color: '#1c165e' }
 language: '中文'
 ---
 **环境要求**
